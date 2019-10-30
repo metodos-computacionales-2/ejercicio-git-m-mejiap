@@ -16,3 +16,8 @@ int main(){
 //    cout<<"El diametro es:"<<diametro(r0)<<endl;
     return 0;
 }
+
+double perimetro(double r){
+    p = 2 * pi * r;
+    return p;
+}
