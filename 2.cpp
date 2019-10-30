@@ -18,3 +18,8 @@ int main(){
     cout<<prueba(a0,b0,c0)<<endl;
     return 0;
 }
+
+boolean prueba(int a, int b, int c){
+    if
+        return p;
+}
