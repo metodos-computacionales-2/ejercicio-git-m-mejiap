@@ -20,6 +20,10 @@ int main(){
 }
 
 boolean prueba(int a, int b, int c){
-    if
-        return p;
+    if((pow(a,2)+pow(b,2))==pow(c,2)){
+        return true;
+    }
+    else{
+        return false;
+    }
 }
