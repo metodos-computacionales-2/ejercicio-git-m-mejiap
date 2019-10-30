@@ -15,11 +15,11 @@ int main(){
     cout<<"Inserte lado c: ";
     cin>>c0;
     
-    if(prueba(a0,b0,c0)==True){
+    if(prueba(a0,b0,c0)==1){
         cout<<"Si."<<endl;
     }
     
-    if(prueba(a0,b0,c0)==False){
+    if(prueba(a0,b0,c0)==0){
         cout<<"No."<<endl;
     }
     
