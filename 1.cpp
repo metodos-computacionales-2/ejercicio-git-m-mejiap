@@ -11,13 +11,14 @@ int main(){
     cout<<"Inserte radio del circulo: ";
     cin>>r0;
     
-    cout<<"El perimetro es:"<<perimetro(r0)<<endl;
+    cout<<"El perimetro es: "<<perimetro(r0)<<endl;
 //    cout<<"El area es:"<<area(r0)<<endl;
 //    cout<<"El diametro es:"<<diametro(r0)<<endl;
     return 0;
 }
 
 double perimetro(double r){
-    p = 2 * pi * r;
+    double p;
+    p = 2 * 3.1416 * r;
     return p;
 }
